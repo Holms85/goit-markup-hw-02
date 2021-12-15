@@ -1,8 +1,16 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-title-color: #ffffff;
+  --hero-bg-col: #2f303a;
+}
+
 body {
   font-family: Raleway, sans-serif;
   font-family: Roboto, sans-serif;
   background-color: #e5e5e5;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -23,7 +31,7 @@ body {
   background-color: #ffffff;
 }
 .header-logo {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: Raleway, sans-serif;
 }
 .logo {
@@ -31,20 +39,34 @@ body {
 }
 
 .header-link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-mail,
 .header-tel {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+/* секция герой */
+
+.hero {
+  background-color: var(--hero-bg-col);
+  text-align: center;
+}
+.hero-title {
+  color: var(--main-title-color);
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--main-title-color);
 }
