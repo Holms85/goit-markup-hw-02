@@ -19,6 +19,7 @@ body {
 .link {
   text-decoration: none;
 }
+
 /* цвет основного текста #212121 */
 /* цвет вторичного текста #757575 */
 /* цвет заголовка героя #FFFFFF */
@@ -48,6 +49,10 @@ body {
 }
 .header-link:hover,
 .header-link:focus {
+  color: var(--accent-color);
+}
+
+.current {
   color: var(--accent-color);
 }
 
