@@ -85,13 +85,16 @@ body {
   text-transform: uppercase;
   color: var(--main-title-color);
 }
+
 .hero-btn {
-  background-color: var(--accent-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
+  background-color: var(--accent-color);
   color: var(--main-title-color);
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -173,6 +176,9 @@ body {
 .logo-two {
   color: #ffffff;
 }
+.footer-address {
+  font-style: inherit;
+}
 .address-text {
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -191,4 +197,38 @@ body {
 .address-tel:hover,
 .address-tel:focus {
   color: var(--accent-color);
+}
+
+/* -----------------PORTFOLIO BODY------------------------- */
+
+.foto-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.foto-btn:hover,
+.foto-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--main-title-color);
+}
+
+.foto-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.foto-text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
